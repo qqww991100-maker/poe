@@ -1,0 +1,61 @@
+.top-bar{
+    z-index: 11;
+}
+.link-back{
+    
+    float: top;
+    padding: 5px;
+    font-style: normal;
+    color: #43a2e6;
+    font-size: 12.8px;
+    margin-left: 150px;
+}
+body{
+    margin: 0;
+    background-color: #000000;
+}
+.top-banner{
+    position: relative;
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    margin-top: 25px;  
+    line-height: 0; 
+}
+ .bg-image{
+    width: 100%;
+    height: auto;
+    display: block;
+    z-index: 1;
+} 
+ .on-bg-image{
+    position: absolute;
+    z-index: 3;
+    top:22%;
+    transform: translateY(-50%);
+    left: 6%;
+    width: 720px;
+    height: 60px;
+    pointer-events: none;
+
+ }
+ .content{
+    position: absolute;
+    top: 20%; 
+    transform: translateY(-50%);
+    left: 8%; 
+    max-width: 680px;
+    color: #a3a3a3; 
+    line-height: 1.2;
+    z-index: 4;
+    
+ }
+ .content h1 {
+    font-size: 2.1rem;
+    margin: top 0; ;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+ }
+ .content p {
+    font-size: 0.95rem;
+ }
