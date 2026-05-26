@@ -31,7 +31,7 @@ body{
  .on-bg-image{
     position: absolute;
     z-index: 3;
-    top:22%;
+    top:24%;
     transform: translateY(-50%);
     left: 6%;
     width: 720px;
@@ -51,11 +51,40 @@ body{
     
  }
  .content h1 {
+     font-size: 2.1rem;
+     margin-top: 0;
+     margin-bottom: 35px;
+     letter-spacing: 2px;
+ }
+    .content p {
+        font-size: 0.875rem;
+        margin-top: 0;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+    }      
+   .Duelist h1{
+    position: absolute;
     font-size: 2.1rem;
-    margin: top 0; ;
+    margin-top: 25px;
+    margin-left: 325px;
     margin-bottom: 35px;
     letter-spacing: 2px;
- }
- .content p {
-    font-size: 0.95rem;
- }
+    color: #a3a3a3; 
+    z-index: 4;
+   }
+    .Duelist .Profession-name{
+    position: absolute;
+     width: 250px;
+     height: 60px;
+     margin-top: 15px;
+     margin-left: 265px;
+     z-index: 1;
+    }
+    .Duelist .class-card{
+    position: absolute;
+    margin-top: 105px;
+     margin-left: 25px;
+    z-index: 2;
+    
+     }
+    }
