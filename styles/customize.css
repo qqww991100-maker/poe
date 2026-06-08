@@ -63,10 +63,44 @@ body{
         letter-spacing: 1px;
     }      
   
-.panel_2 img{
-    width: 550px;
-    height: auto;
-  
+.panel_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+.panel_2 .first_pic{
+    padding: 0px;
 }
 
+.panel_2 .hero_pic_1{
+    width: 100%;
+    height: auto;
+    margin-left: 280px;
+    margin-top: 90px;
+    margin-bottom: 60px;  
+    z-index: 5;
   
+}
+.panel_2 .hero_pic_2{
+    width: 100%;
+    height: auto;
+    margin-left: -115px;
+    margin-top: 115px;  
+    z-index: 3;
+}
+.panel_2 .hero_pic_3{
+    width: 100%;
+    height: auto;
+    margin-left: -260px;
+    margin-top: 140px;  
+    z-index: 1;
+}
+.hero_name{
+    z-index: 10;
+    position: absolute;
+    margin-left: 320px;
+    color: #bbb0b0;
+    font-size: 35px;
+    margin-top: -50px;
+    line-height: 7;
+}
