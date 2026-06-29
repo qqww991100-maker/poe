@@ -1,106 +1,230 @@
-.top-bar{
-    z-index: 11;
-}
-.link-back{
-    
-    float: top;
-    padding: 5px;
-    font-style: normal;
-    color: #43a2e6;
-    font-size: 12.8px;
-    margin-left: 150px;
-}
-body{
-    margin: 0;
-    background-color: #000000;
-}
-.top-banner{
-    position: relative;
-    width: 100%;
-    max-width: 1600px;
-    margin: auto;
-    margin-top: 25px;  
-    line-height: 0; 
-}
- .bg-image{
-    width: 100%;
-    height: auto;
-    display: block;
-    z-index: 1;
-} 
- .on-bg-image{
-    position: absolute;
-    z-index: 3;
-    top:24%;
-    transform: translateY(-50%);
-    left: 6%;
-    width: 720px;
-    height: 60px;
-    pointer-events: none;
-
- }
- .content{
-    position: absolute;
-    top: 20%; 
-    transform: translateY(-50%);
-    left: 8%; 
-    max-width: 680px;
-    color: #a3a3a3; 
-    line-height: 1.2;
-    z-index: 4;
-    
- }
- .content h1 {
-     font-size: 2.1rem;
-     margin-top: 0;
-     margin-bottom: 35px;
-     letter-spacing: 2px;
- }
-    .content p {
-        font-size: 0.875rem;
-        margin-top: 0;
-        margin-bottom: 20px;
-        letter-spacing: 1px;
-    }      
-  
-.panel_2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
-}
-.panel_2 .first_pic{
-    padding: 0px;
+.top-bar {
+  z-index: 11;
 }
 
-.panel_2 .hero_pic_1{
-    width: 100%;
-    height: auto;
-    margin-left: 280px;
-    margin-top: 90px;
-    margin-bottom: 60px;  
-    z-index: 5;
-  
+.link-back {
+  float: top;
+  padding: 5px;
+  font-style: normal;
+  color: #43a2e6;
+  font-size: 12.8px;
+  margin-left: 150px;
 }
-.panel_2 .hero_pic_2{
-    width: 100%;
-    height: auto;
-    margin-left: -115px;
-    margin-top: 115px;  
-    z-index: 3;
+
+body {
+  margin: 0;
+  background-color: #000000;
 }
-.panel_2 .hero_pic_3{
-    width: 100%;
-    height: auto;
-    margin-left: -260px;
-    margin-top: 140px;  
-    z-index: 1;
+
+.top-banner {
+  position: relative;
+  width: 100%;
+  max-width: 1600px;
+  margin: auto;
+  margin-top: 25px;
+  line-height: 0;
+  aspect-ratio: 16 / 7;
+  background-image: url('../assets/hero/hero-bg.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-.hero_name{
-    z-index: 10;
-    position: absolute;
-    margin-left: 320px;
-    color: #bbb0b0;
-    font-size: 35px;
-    margin-top: -50px;
-    line-height: 7;
+
+.bg-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  z-index: 1;
+}
+
+.on-bg-image {
+  position: absolute;
+  z-index: 3;
+  top: 24%;
+  transform: translateY(-50%);
+  left: 6%;
+  width: 720px;
+  height: 60px;
+  pointer-events: none;
+
+}
+
+.content {
+  position: absolute;
+  top: 20%;
+  left: 8%;
+  max-width: 680px;
+  color: #a3a3a3;
+  line-height: 1.2;
+  z-index: 4;
+
+}
+
+.content h1 {
+  padding-left: 30px;
+  font-size: 2.1rem;
+  margin-top: 0;
+  margin-bottom: 35px;
+  letter-spacing: 2px;
+}
+
+.content p {
+  padding: 20px 30px;
+  font-size: 0.875rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  background-image: url('../assets/hero/content-bg.png');
+  background-size: 100% 100%;
+}
+
+.panel_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.panel_2 .first_pic {
+  padding: 0px;
+}
+
+.panel_2 .hero_pic_1 {
+  width: 100%;
+  height: auto;
+  margin-left: 280px;
+  margin-top: 90px;
+  margin-bottom: 60px;
+  z-index: 5;
+
+}
+
+.panel_2 .hero_pic_2 {
+  width: 100%;
+  height: auto;
+  margin-left: -115px;
+  margin-top: 115px;
+  z-index: 3;
+}
+
+.panel_2 .hero_pic_3 {
+  width: 100%;
+  height: auto;
+  margin-left: -260px;
+  margin-top: 140px;
+  z-index: 1;
+}
+
+.hero_name {
+  z-index: 10;
+  position: absolute;
+  margin-left: 320px;
+  color: #bbb0b0;
+  font-size: 35px;
+  margin-top: -50px;
+  line-height: 7;
+}
+
+
+/* PP */
+
+.main {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.category {
+  margin-top: 20px;
+}
+
+.category-title {
+  width: 240px;
+  height: 62px;
+  color: #7cb29c;
+  padding: 0 50px 0 20px;
+  text-shadow: 1px 1px #000;
+  font-size: 2em;
+  line-height: 62px;
+  text-align: center;
+  background: #000000 url('../assets/hero/昇華前的名稱條.png') 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.category-list {
+  margin: 0;
+  padding-left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 0;
+}
+
+.category-item {
+  list-style: none;
+  width: calc(100% / 3);
+}
+
+/* .category-item:not(:first-child) {
+  margin-left: -11%
+} */
+
+.ascendancy {
+  width: 100%;
+  aspect-ratio: 106 / 49;
+  position: relative;
+  transform: scale(1.1235);
+  cursor: pointer;
+}
+
+.category-item:nth-child(1) {
+  z-index: 3;
+
+  & .ascendancy {
+    transform-origin: left top;
+  }
+}
+
+.category-item:nth-child(2) {
+  margin-top: 2%;
+  z-index: 2;
+
+  & .ascendancy {
+    transform-origin: center top;
+  }
+}
+
+.category-item:nth-child(3) {
+  margin-top: 4%;
+  z-index: 1;
+
+  & .ascendancy {
+    transform-origin: right top;
+  }
+}
+
+.ascendancy-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.ascendancy-title {
+  position: absolute;
+  bottom: 4%;
+  right: 2%;
+  width: 180px;
+  height: 52px;
+  font-size: 1.3em;
+  line-height: 52px;
+  color: #9aa6a1;
+  background: #0000 url('../assets/hero/昇華後的名稱條.png') 0 0 no-repeat;
+  background-size: 100% 100%;
+  padding: 0 15px;
+  text-align: center;
+  font-size-adjust: .54;
+  font-weight: 400;
+  margin: 0;
 }
