@@ -273,3 +273,15 @@ body {
     height: calc(100% - 90px);
   }
 }
+
+
+
+      <div data-ascendancy="Saboteur" class="ascendancy-dialog-container">
+        <input type="checkbox" class="ascendancy-checkbox" hidden id="saboteur-checkbox" />
+        <div class="ascendancy-dialog dialog-container">
+          <label class="dialog-close" for="saboteur-checkbox">返回職業</label>
+          <div class="dialog-content">
+
+          </div>
+        </div>
+      </div>
