@@ -2,7 +2,7 @@
   "name": "pathofexile",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/qqww991100-maker/poe#readme",
+  "homepage": "https://qqww991100-maker.github.io/poe/",
   "bugs": {
     "url": "https://github.com/qqww991100-maker/poe/issues"
   },
@@ -15,6 +15,7 @@
   "type": "commonjs",
   "main": "index.html",
   "scripts": {
+    "serve": "npx serve .",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
